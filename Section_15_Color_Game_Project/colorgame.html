@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Color Game</title>
+  <link rel="stylesheet" type="text/css" href="colorgame.css">
+  <link href="https://fonts.googleapis.com/css?family=Avenir" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1>
+    The Great
+    <br>
+    <span id="rgb-color-disp">RGB</span>
+    <br>
+    Color Game
+  </h1>
+
+  <div id="control-bar">
+    <button id="reset-btn">New Colors</button>
+    <span id="message"></span>
+    <button id="easy-btn" class="mode-btn">Easy</button>
+    <button id="hard-btn" class="mode-btn selected">Hard</button>
+  </div>
+
+  <div id="container">
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+  </div>
+
+  <div id="score-area">
+    <h2>Score: <span id="score-disp">0</span></h2>
+  </div>
+
+
+  <script type="text/javascript" src="colorgame.js"></script>
+</body>
+
+</html>
