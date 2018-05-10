@@ -1,6 +1,6 @@
 # YelpCamp
 
-## Version 1.0.0
+## Version 0.1.0
 
 * Added Landing Page
 * Added Campgrounds Page that lists all campgrounds
@@ -21,3 +21,15 @@
 * Style the Navbar and Form
   * Added a navbar to all the templates
   * Styled the new campground form
+
+  
+## Version 0.2.0
+
+* Added Mongoose
+  * Installed and configured Mongoose
+  * Setup campground model
+  * Using campground model inside of out routes
+* Show Page
+  * RESTful routes
+  * Added description to our campground model
+  * Added show route/template
